@@ -1,0 +1,35 @@
+{
+  "value": [
+    {
+      "id": "/subscriptions/5b540ac4-70bf-4bec-aa7f-1d7dd4e57c7b/resourceGroups/wsu/providers/Microsoft.Web/sites/csgwsu/webjobs/LoadDW-WorkdayNightly",
+      "name": "csgwsu/LoadDW-WorkdayNightly",
+      "type": "Microsoft.Web/sites/webjobs",
+      "location": "East US",
+      "properties": {
+        "latest_run": {
+          "id": "202010272223055432",
+          "name": "202010272223055432",
+          "status": "Success",
+          "start_time": "2020-10-27T22:23:05.5588072Z",
+          "end_time": "2020-10-27T22:23:14.6595784Z",
+          "duration": "00:00:09.1007712",
+          "output_url": "https://csgwsu.scm.azurewebsites.net/vfs/data/jobs/triggered/LoadDW-WorkdayNightly/202010272223055432/output_log.txt",
+          "error_url": null,
+          "url": "https://csgwsu.scm.azurewebsites.net/api/triggeredwebjobs/LoadDW-WorkdayNightly/history/202010272223055432",
+          "job_name": "LoadDW-WorkdayNightly",
+          "trigger": "External - "
+        },
+        "history_url": "https://csgwsu.scm.azurewebsites.net/api/triggeredwebjobs/LoadDW-WorkdayNightly/history",
+        "scheduler_logs_url": null,
+        "name": "LoadDW-WorkdayNightly",
+        "run_command": "ivetRunAddHocProc.exe",
+        "url": "https://csgwsu.scm.azurewebsites.net/api/triggeredwebjobs/LoadDW-WorkdayNightly",
+        "extra_info_url": "https://csgwsu.scm.azurewebsites.net/azurejobs/#/jobs/triggered/LoadDW-WorkdayNightly",
+        "type": "triggered",
+        "error": null,
+        "using_sdk": false,
+        "settings": {}
+      }
+    },
+  ...
+]}
